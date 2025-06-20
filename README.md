@@ -4,13 +4,11 @@ I have started learning C++ this is my first project
 ## 🧮 Simple Calculator in C++ [v1]
 
 This is a basic calculator program written in C++ for beginners. It can perform simple arithmetic operations like addition, subtraction, multiplication, and division.
-
-## ✨ Features
-
-- Add two numbers
-- Subtract two numbers
-- Multiply two numbers
-- Divide two numbers (with zero-check)
+    # ✨ Features
+    - Add two numbers
+    - Subtract two numbers
+    - Multiply two numbers
+    - Divide two numbers
 
 ## 🛠️ Requirements
 
