@@ -1,8 +1,5 @@
 # Ignore compiled binary
 calculator
 .excalidraw
-<<<<<<< HEAD
-=======
 v2
 calculator-v2.cpp
->>>>>>> Calculator-v2
