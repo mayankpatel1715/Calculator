@@ -123,14 +123,5 @@ int main(){
 
     calculator(op,num1,num2);
     
-    // bool con = false;
-
-    // while(!con){
-    //     char yes;
-    //     std :: cout << "Do you want to continue using Calculator!(Y/N): ";
-    //     std :: cin >> yes;
-    // }
-
-
     return 0;
 }
