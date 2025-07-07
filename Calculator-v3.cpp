@@ -32,10 +32,10 @@ float inputvalidation(){
     return num;
 }
 
-void operationvalidation(char op){
+void operationvalidation(std :: string &op){
 
     while(true){
-        if(op == '+' || op == '-' || op == 'x' || op == '/' || op == '%'){
+        if(op == "+" || op == "-" || op == "x" || op == "/" || op == "%"){
             break; // return op;
         }else{
             std :: cout << "Enter Valid Operation to perform" << '\n' << "[+], [-], [x], [/], [%]" << std :: endl;
@@ -70,8 +70,8 @@ void modulus(int num1, int num2){
     std :: cout << num1%num2 << std :: endl;
 }
 
-void calculator(char op, float &num1, float &num2){
-    switch(op){
+void calculator(std :: string op, float &num1, float &num2){
+    switch(op[0]){
         case '+':
             std :: cout << "Addition: ";
             addition(num1,num2);
@@ -111,15 +111,12 @@ void calculator(char op, float &num1, float &num2){
 
 int main(){
     menuSystem();
-    char op;
+    std :: string op;
     std :: cout << "---Enter your desired operation---" << '\n' << "[+], [-], [x], [/], [%]" << std :: endl;
     std :: cin >> op;
     operationvalidation(op);
     float num1 = inputvalidation();
     float num2 = inputvalidation();
-
-    std :: cout << num1 << std :: endl;
-    std :: cout << num2 << std :: endl;
 
     calculator(op,num1,num2);
     
