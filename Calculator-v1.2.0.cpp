@@ -3,7 +3,7 @@
 
 void menuSystem(){
     std :: cout << "----------WELCOME----------" << std :: endl;
-    std :: cout << "THIS CALUCATOR IS MADE IN C++" << std :: endl;
+    std :: cout << "THIS CALCULATOR IS MADE IN C++" << std :: endl;
     std :: cout << "Calculator is a machine to \nperform operations between numbers." << std:: endl;
     std :: cout << "         [+] Addition      " << std :: endl;
     std :: cout << "         [-] Subtraction   " << std :: endl;
